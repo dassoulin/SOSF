@@ -1,0 +1,63 @@
+/*hi*/
+
+@charset "utf-8";
+@font-face {
+    font-family: "Hi_there";
+    src: url(), url();
+}
+
+body > h2{
+    color: gray;
+    font-size: 5vw;
+    letter-spacing: 10px;
+    word-spacing: .1px;
+    font-style: oblique;
+    text-decoration: overline underline;
+    font-variant: small-caps;
+}
+
+h3{
+    font-style: italic;
+}
+
+body dt{
+    color: hsla(100, 50%, 35%, 1);
+}
+
+dt + dd {
+    color: pink;
+}
+
+h2 ~ h4 {
+    color: blue;
+}
+
+ul > li {
+    list-style-type: disc;
+}
+
+a:focus{
+    color: red;
+}
+
+dt::first-letter{
+    font-size: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr th, table tr td {
+    border: 3px groove black;
+}
+
+article{
+    column-count: 3; /*define how many cols*/
+    column-width: 50px; /*size of cols*/
+    column-rule: 2px double red; /*col line*/
+}
+
+colgroup{
+    background-color: red;
+}

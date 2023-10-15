@@ -1,0 +1,38 @@
+div.nav {
+  background-color: whitesmoke;
+  padding: 2px 28px;
+}
+
+ul.nav li#logo {
+  color:goldenrod;
+  text-shadow: 1px 1px black;
+  font-size: 34px;
+}
+
+ul.nav li:nth-of-type(2), ul.nav li:last-of-type {
+  padding-left: 32px;
+  font-family: 'Gill Sans';
+  color: #3A3B3C;
+  font-size: 20px;
+  letter-spacing: -.5px;
+  transform:translateY(20%);
+}
+
+
+
+ul.nav li img {
+  vertical-align: text-top;
+  padding-right: 8px;
+}
+
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}

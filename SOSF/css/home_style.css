@@ -1,0 +1,30 @@
+body{
+    background-image:image("../images/background.jpeg") !important;
+}
+
+img#building{
+    display: block;
+    size:32vh;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+img#big-logo {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 60vh;
+}
+h2, h5{
+    text-align: center;
+    color: palevioletred;
+    text-shadow: 1px 1px goldenrod;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+table#schedule {
+    margin: 24px 72px;
+}
+
+header{
+    padding-left: 52px;
+    padding-top: 26px;
+    color: #AA336A;
+    font-family: 'Brush Script MT';
+    font-size: 3rem;
+}
+
+tr {
+    border-radius: 50%;
+}
+
+table#schedule tr th, table#schedule tr td {
+    width: 16rem;
+    border: 3px solid palevioletred;
+    text-align: center;
+    background-color: #FFE6EE;
+    color: #AA336A;
+    font-size: large;
+    font-family: 'Marker Felt';
+    letter-spacing: .06rem;
+}

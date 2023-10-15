@@ -1,0 +1,17 @@
+div.card {
+    padding: 6px;
+    margin: 28px 64px;
+    flex-direction: row;
+    vertical-align: top;
+}
+
+div.card img {
+    width: 14rem;
+    height: 100%;
+}
+
+span.price{
+    color:green;
+    font-style: italic;
+    font-size: larger;
+}
